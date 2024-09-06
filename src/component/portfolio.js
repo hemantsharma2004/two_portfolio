@@ -1,5 +1,8 @@
 
-
+import { motion } from "framer-motion";
+import { fadeIn
+  
+ } from "./varient";
  const Portfolio=()=>{
  
       const portfolios=[
@@ -30,6 +33,13 @@
         <div
         name="profile"
         className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      >
+         <motion.div
+        variants={fadeIn('left', 'up', 0.2)} 
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.7 }}
+        className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className="pb-8">
@@ -66,6 +76,7 @@
             ))}
           </div>
         </div>
+        </motion.div>
       </div>
      )
  }
