@@ -1,30 +1,32 @@
 
 import { motion } from "framer-motion";
-import { fadeIn
-  
- } from "./varient";
+import { fadeIn} from "./varient";
+
  const Portfolio=()=>{
  
       const portfolios=[
         {
              id:1,
-             src:"https://www.shutterstock.com/image-vector/weather-forecast-widget-concept-temperature-260nw-1944970438.jpg",
-             demo:""
+             src:"https://multipurposethemes.com/wp-content/uploads/2022/05/Cryptocurency-Dashboard.png",
+             demo:"https://crypto-iota-sand.vercel.app/"
         },
+
         {
             id:2,
-            src:"https://i.ytimg.com/vi/TlG25RUhkTk/maxresdefault.jpg",
+            src:"https://cdn.dribbble.com/userupload/3495254/file/original-a8d75d496a8c190c944815869a334e5a.jpg",
             demo:"https://yumhub-two.vercel.app/",
        },
+
        {
         id:3,
         src:"https://imag.malavida.com/mvimgbig/download-fs/netflix-para-chrome-18150-2.jpg",
         demo:"https://yumhub-two.vercel.app/",
    },
+
    {
     id:4,
-    src:"https://www.hostinger.in/tutorials/wp-content/uploads/sites/2/2023/06/shopify-website-homepage.png",
-    demo:"",
+    src:"https://cdn.dribbble.com/users/5710721/screenshots/17104288/media/e2505cedaf7559de5a59d1705e6ad234.jpg?resize=400x0",
+    demo:"https://wt-lab-murex.vercel.app/",
 },
       ]
 
@@ -59,7 +61,10 @@ import { fadeIn
                 />
                 <div className="flex items-center justify-center">
             
-               <a href={demo}>
+               <a href={demo}  
+                  target="_blank"  
+           rel="noopener noreferrer">
+                
               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                Demo
               </button>

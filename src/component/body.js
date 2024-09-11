@@ -24,11 +24,11 @@ const Body = () => {
         className="w-auto" 
       >
         <h1 className="text-5xl text-white pb-6 font-extrabold">
-          I'm a
+          I'm 
           <Typewriter
             options={{
               strings: [
-                'Hemant',
+                'Hemant Sharma',
                 'Frontend Developer',
                 'React Developer',
                 'UI/UX Developer',
@@ -44,9 +44,12 @@ const Body = () => {
 
         <div className="w-1/5">
           <a
-            href="hello"
+            href="https://drive.google.com/file/d/1VA0djfcBUEiQ0YCkkDZ1Jaw58IiO0-o2/view?usp=sharing"
+              target="_blank"  
+           rel="noopener noreferrer"
             smooth
             duration={500}
+           
             className="group cursor-pointer bg-gradient-to-r flex items-center from-cyan-500 to-blue-500 text-lg text-white p-2 rounded-xl px-4 mb-4"
           >
             Portfolio
